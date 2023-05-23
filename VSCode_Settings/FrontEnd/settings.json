@@ -1,0 +1,166 @@
+{
+  // VSCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 18,
+
+  // Files
+  "files.associations": {
+    ".prettierrc.json": "json",
+    ".env.": "dotenv"
+  },
+  "files.exclude": {
+    "**/node_modules": false,
+    "**/.next": false
+  },
+  "files.trimTrailingWhitespace": true,
+
+  // Editor
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.defaultColorDecorators": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  // Terminal
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 15,
+
+  // Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "jest": "test"
+  },
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+    "mardkown": "html"
+  },
+  "emmet.useInlineCompletions": true,
+  "emmet.syntaxProfiles": {
+    "typescript": "tsx"
+  },
+
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,
+
+  // Git & GitHub
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "javascript": true,
+    "python": true,
+    "javascriptreact": true
+  },
+
+  // Eslint
+  "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
+
+  // Languages
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always"
+  },
+
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always"
+  },
+  "typescript.suggest.autoImports": true,
+
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always"
+  },
+
+  "[typescriptreact]": {
+    "editor.autoClosingBrackets": "always"
+  },
+
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+
+  // Tailwind
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript"
+  },
+
+  // HTML CSS Class Completion
+  "html-css-class-completion.enableEmmetSupport": true,
+
+  // Discord Presence
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "gitlens.graph.dateStyle": "absolute",
+  "gitlens.graph.avatars": false,
+  "git.mergeEditor": true,
+  "editor.accessibilitySupport": "off",
+  "markdown.preview.breaks": true,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "Recent Issues",
+      "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+    }
+  ],
+  "easycode.userEmail": "contato.diegocrivelaro@gmail.com",
+  "workbench.colorTheme": "Illusion"
+}
