@@ -38,7 +38,7 @@
 36. Prettier - Code formatter
 37. Prisma
 38. SonarLint
-39. Symbols
+39. Material Icon Theme
 40. Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more
 41. Template String Converter
 42. Thunder Client

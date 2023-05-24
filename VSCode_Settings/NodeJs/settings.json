@@ -5,7 +5,7 @@
   // Workbench
   "workbench.colorTheme": "Illusion",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 18,
 
   // Explorer
@@ -61,8 +61,6 @@
     "typescriptreact": "typescriptreact",
     "mardkown": "html"
   },
-  "html-css-class-completion.enableEmmetSupport": true,
-
   // Git & GitHub
   "git.mergeEditor": true,
   "git.autofetch": true,
@@ -131,6 +129,14 @@
 
   // Markdown
   "markdown.preview.breaks": true,
+
+  // Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "jest": "test"
+  },
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
 
   // Discord Presence
   "discord.detailsIdling": "👀 Procurando nos Arquivos...",
