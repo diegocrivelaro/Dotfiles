@@ -51,3 +51,4 @@
 49. TypeScript Extension Pack
 50. TypeScript Importer
 51. WakaTime
+52. Figma for VS Code
