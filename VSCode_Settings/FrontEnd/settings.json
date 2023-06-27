@@ -92,23 +92,35 @@
 
   // Languages
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSaveMode": "file",
     "editor.autoClosingBrackets": "always"
   },
 
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSaveMode": "file",
     "editor.autoClosingBrackets": "always"
   },
   "typescript.suggest.autoImports": true,
 
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSaveMode": "file",
     "editor.autoClosingBrackets": "always"
   },
 
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSaveMode": "file",
     "editor.autoClosingBrackets": "always"
   },
 
@@ -120,9 +132,6 @@
   "tailwindCSS.includeLanguages": {
     "plaintext": "javascript"
   },
-
-  // HTML CSS Class Completion
-  "html-css-class-completion.enableEmmetSupport": true,
 
   // Discord Presence
   "discord.detailsIdling": "👀 Procurando nos Arquivos...",

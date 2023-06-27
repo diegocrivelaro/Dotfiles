@@ -41,7 +41,7 @@
 39. MDX
 40. Move TS - Move TypeScript files and update relative imports
 41. Path Intellisense
-42. Prettier - Code formatter
+42. Prettier ESLint
 43. SonarLint
 44. Stylelint
 45. Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more
