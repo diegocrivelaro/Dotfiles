@@ -44,7 +44,7 @@
   "editor.suggestSelection": "first",
   "editor.parameterHints.enabled": true,
   "editor.accessibilitySupport": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -66,9 +66,10 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "scminput": false
   },
   "gitlens.graph.dateStyle": "absolute",
   "gitlens.graph.avatars": true,
