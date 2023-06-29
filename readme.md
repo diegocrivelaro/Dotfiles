@@ -25,3 +25,4 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 17. Ubisoft Play
 18. EA
 19. WSL 2
+20. VoiceMeeter
