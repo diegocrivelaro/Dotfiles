@@ -14,7 +14,7 @@
   "requireUrl": {
     "scope": "javascript, typescript",
     "prefix": "!URL",
-    "body": ["const { URL } = require('hrl');"],
+    "body": ["const { URL } = require('url');"],
     "description": "Snippet para fazer a importação do módulo nátivo URL"
   }
 }
