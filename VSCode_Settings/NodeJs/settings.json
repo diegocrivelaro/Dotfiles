@@ -108,19 +108,19 @@
   },
 
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
 
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
 
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
 
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
 
   "[dockerfile]": {
@@ -145,5 +145,6 @@
   "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
   "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
   "discord.lowerDetailsIdling": "☕ Hora do café",
-  "discord.lowerDetailsNoWorkspaceFound": "{file_size}"
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  "symbols.hidesExplorerArrows": false
 }

@@ -35,7 +35,7 @@
 33. npm Intellisense
 34. Paste JSON as Code
 35. Path Intellisense
-36. Prettier - Code formatter
+36. Prettier Eslint
 37. Prisma
 38. SonarLint
 39. Material Icon Theme
