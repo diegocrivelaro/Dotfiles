@@ -13,6 +13,7 @@
 
   // Files
   "files.associations": {
+    "*.css": "tailwindcss",
     ".prettierrc.json": "json",
     ".env.": "dotenv"
   },
