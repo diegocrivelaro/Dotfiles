@@ -38,6 +38,9 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+  },
   // Terminal
   "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code Retina, monospace",
   "terminal.integrated.defaultProfile.linux": "zsh",
@@ -88,4 +91,5 @@
   "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
   "discord.lowerDetailsIdling": "☕ Hora do café",
   "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  "errorLens.fontFamily": "Fira Code",
 }
