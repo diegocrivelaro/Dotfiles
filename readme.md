@@ -1,9 +1,5 @@
 # Diego Dotfiles
 
-```bash
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-```
-
 # Ferramentas
 
 1. VSCode
@@ -53,4 +49,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 sudo apt install neofetch
+ln -s ~/Development/Personal/Dotfiles/git/.gitconfig ~/.gitconfig
+```
+
+## Instalar Fontes
+```bash
+...
 ```
