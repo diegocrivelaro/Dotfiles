@@ -1,0 +1,91 @@
+{
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 12,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.enableStickyScroll": true,
+  // Window
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.customTitleBarVisibility": "auto",
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": false,
+  // Editor
+  "editor.fontFamily": "JetBrains Mono, Fira Code Retina, monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 1.8,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "blink",
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnSave": true,
+  // Terminal
+  "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code Retina, monospace",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.cursorStyle": "line",
+  // BreadCrumbs
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "off",
+  // Files
+  "files.associations": {
+    ".env.": "dotenv",
+  },
+  "files.trimTrailingWhitespace": true,
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  // Remote
+  "remote.autoForwardPortsSource": "hybrid",
+  // Extensions
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "json": true,
+  },
+  "emmet.useInlineCompletions": true,
+  "emmet.includeLanguages": {
+    "mardkown": "markdown",
+  },
+  "extensions.autoCheckUpdates": true,
+  "sonarlint.focusOnNewCode": true,
+  "apc.font.family": "JetBrains Mono",
+  "apc.header": {
+    "height": 34
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "discord.detailsIdling": "👀 Procurando nos arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+}
