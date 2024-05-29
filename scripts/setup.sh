@@ -66,10 +66,14 @@ nvm install 20 || (echo -e "${RED}Erro!${NC}" && exit 1)
 echo -e "${GREEN}Node.Js version: ${node -v} ${NC}"
 echo -e "${GREEN}NPM version: ${npm -v} ${NC}"
 
-# Config Git
-echo -e "${GREEN}Configurando o Git...${NC}"
+# Configuring symbolic links
+echo -e "${GREEN}Configurando Links Simbólicos...${NC}"
 sleep 3
-ln -s ~/Development/Personal/Dotfiles/git/.gitconfig ~/.gitconfig
+ln -s Dotfiles/.bash_logout ~/
+ln -s Dotfiles/.bashrc ~/
+ln -s Dotfiles/.profile ~/
+ln -s Dotfiles/.zshrc ~/
+ln -s Dotfiles/git/.gitconfig  ~/.gitconfig
 
 # Reboot the system
 echo -e "${GREEN}Reiniciando o sistema...${NC}"
