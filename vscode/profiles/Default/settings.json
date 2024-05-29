@@ -92,5 +92,5 @@
   "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
   "discord.lowerDetailsIdling": "☕ Hora do café",
   "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
-  "errorLens.fontFamily": "Fira Code",
+  "errorLens.fontFamily": "Fira Code"
 }
