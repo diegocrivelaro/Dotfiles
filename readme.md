@@ -27,6 +27,7 @@
 14. [Epic Games](https://www.epicgames.com/store/pt-BR/download)
 15. [WSL 2](https://docs.microsoft.com/pt-br/windows/wsl/install)
 16. [VoiceMeeter](https://vb-audio.com/Voicemeeter/)
+17. [Dia](http://dia-installer.de/)
 
 ## Prepare Environment
 
