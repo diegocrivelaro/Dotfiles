@@ -66,6 +66,11 @@ nvm install 20 || (echo -e "${RED}Erro!${NC}" && exit 1)
 echo -e "${GREEN}Node.Js version: ${node -v} ${NC}"
 echo -e "${GREEN}NPM version: ${npm -v} ${NC}"
 
+## Install Yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - || (echo -e "${RED}Erro!${NC}" && exit 1)
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list || (echo -e "${RED}Erro!${NC}" && exit 1)
+sudo apt update && sudo apt install --no-install-recommends yarn || (echo -e "${RED}Erro!${NC}" && exit 1)
+
 # Configuring symbolic links
 echo -e "${GREEN}Configurando Links Simbólicos...${NC}"
 sleep 3
