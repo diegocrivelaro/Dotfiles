@@ -1,0 +1,115 @@
+{
+  // Workbench
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 14,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.activityBar.location": "default",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.enableStickyScroll": true,
+  // Window
+  "window.commandCenter": false,
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb"
+  },
+  // Editor
+  "editor.fontFamily": "JetBrains Mono, Fira Code Retina, monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 1.4,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "blink",
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.ts": "always",
+    "source.addMissingImports.ts": "always",
+    "source.organizeImports": "always",
+    "source.removeUnusedImports": "always"
+  },
+  // Terminal
+  "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code Retina, monospace",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.cursorStyle": "line",
+  // BreadCrumbs
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "off",
+  // Files
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "files.trimTrailingWhitespace": true,
+  // Git
+  "git.autofetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.views.repositories.files.layout": "list",
+  // Remote
+  "remote.autoForwardPortsSource": "hybrid",
+  // Language
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  // Extensions
+  "emmet.useInlineCompletions": true,
+  "emmet.includeLanguages": {
+    "mardkown": "markdown"
+  },
+  "errorLens.fontFamily": "Fira Code",
+  "errorLens.fontSize": "13",
+  "discord.detailsIdling": "👀 Procurando nos arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  "apc.font.family": "JetBrains Mono",
+  "apc.header": {
+    "height": 30
+  },
+  "apc.listRow": {
+    "height": 22
+  },
+  "yaml.schemas": {
+    "file:///home/diego_crivelaro/.vscode-server/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }
+}
