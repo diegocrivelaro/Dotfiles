@@ -7,6 +7,7 @@
   "workbench.activityBar.location": "default",
   "workbench.statusBar.visible": true,
   "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.wrapTabs": true,
   // Window
   "window.commandCenter": false,
   // Explorer
@@ -57,7 +58,8 @@
   // Files
   "files.associations": {
     ".env.*": "dotenv",
-    ".prettierrc": "json"
+    ".prettierrc": "json",
+    ".env*": "dotenv"
   },
   "files.trimTrailingWhitespace": true,
   // Git
@@ -85,7 +87,13 @@
     "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
   },
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Extensions
   "material-icon-theme.folders.associations": {
@@ -117,15 +125,33 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "atlascode.jira.enabled": true,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "githubPullRequests.pullBranch": "never",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "terminal.integrated.env.windows": {},
   "terminal.integrated.env.linux": {
     "NODE_ENV": "development"
-  }
+  },
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "dotenv.enableAutocloaking": false
 }
