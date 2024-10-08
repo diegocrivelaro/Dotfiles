@@ -86,20 +86,24 @@
   "[sql]": {
     "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
   },
-  "[php]": {
-    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
   // Extensions
   "material-icon-theme.folders.associations": {
+    "dtos": "class",
     "migrations": "database",
-    "readme": "markdown"
+    "readme": "markdown",
+    "http": "client"
   },
+  "material-icon-theme.files.color": "#42a5f5",
+  "material-icon-theme.activeIconPack": "nest",
   "emmet.useInlineCompletions": true,
   "emmet.includeLanguages": {
     "mardkown": "markdown"
@@ -152,6 +156,12 @@
       ]
     },
     "textMateRules": []
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
   },
   "dotenv.enableAutocloaking": false
 }
