@@ -122,6 +122,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias carefy-start="cd ~ && code Development/Job/Carefy/carefy && cd Development/Job/Carefy/carefy-api && docker compose up"
-
 neofetch

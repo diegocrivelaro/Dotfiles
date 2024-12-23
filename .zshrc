@@ -114,6 +114,4 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-alias carefy-start="cd ~ && code Development/Job/Carefy/carefy && cd Development/Job/Carefy/carefy-api && docker compose up"
-
 neofetch
